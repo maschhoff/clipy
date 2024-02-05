@@ -1,4 +1,4 @@
-# shortipy
+# clipy
 small web clipboard to copy text to another device.
 Written in python based on flask
 
