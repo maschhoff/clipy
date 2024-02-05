@@ -1,0 +1,445 @@
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:38] "GET /static/main.css HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:39] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 8925 with https://test to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:43] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:44] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from https://test
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:49] "GET /8925 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:49] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:42:49] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from https://test
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:45:32] "GET /8925 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:45:32] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:45:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:load DB
+INFO:root:expose entry from https://test
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:45:44] "GET /8925 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:45:45] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:45:45] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:load DB
+INFO:root:expose entry from https://test
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:04] "GET /8925 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:04] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:04] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from https://test
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:05] "GET /8925 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:06] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 6757 with test2 to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:09] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from test2
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:12] "GET /6757 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:47:12] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:load DB
+INFO:root:expose entry from test2
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:37] "GET /6757 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:37] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:38] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 4898 with test424t2 to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:48] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from test424t2
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:50] "GET /4898 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:51:50] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:load DB
+INFO:root:expose entry from test424t2
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:52:52] "GET /4898 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:52:52] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:52:53] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 1641 with Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:53:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:53:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:53:13] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:53:15] "GET /1641 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:53:15] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 09:53:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:load DB
+INFO:root:expose entry from Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 10:01:04] "GET /1641 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 10:01:04] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 10:01:04] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:52:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:52:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:52:07] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 7439 with rara to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:52:14] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:52:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:52:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:52:20] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:30] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:30] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 9655 with test111 to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from test111
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:36] "GET /9655 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:36] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:36] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:54:42] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 8632 with braaap to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:55:00] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:55:00] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:55:00] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from braaap
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:55:03] "GET /8632 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:55:03] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:55:03] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 16:55:16] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:32:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:32:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:32:51] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 3542 with test121351 to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:32:53] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:32:53] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:32:54] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:33:00] "GET /chrome.css.map HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:33:00] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from test121351
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:33:14] "GET /3542 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:33:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:33:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:load DB
+INFO:root:expose entry from test121351
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:49:59] "GET /3542 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:50:00] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:50:00] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 7117 with test121351 to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:50:06] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:50:06] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:50:06] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from test121351
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:50:12] "GET /7117 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:50:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:50:12] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:53:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:53:55] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:53:56] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 8939 with test to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:53:58] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:53:58] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:53:58] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:54:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:54:54] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:54:55] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 3773 with das ist ein test to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:54:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:54:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:54:59] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:55:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:55:57] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:55:57] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:05] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:05] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:08] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:08] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:09] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:44] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:44] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 2347 with Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:56:59] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:00] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:27] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:27] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 5233 with Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:33] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:40] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 4292 with Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:43] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:43] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:53] "GET /4292 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:53] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 19:57:53] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:adding 1215 with Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. to db
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:11] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:12] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:12] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+INFO:root:expose entry from Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:15] "GET /1215 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:15] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:15] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:31] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:00:31] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:03:18] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:03:32] "GET /api/1215 HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:03:32] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:05] "GET /api/1215 HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:05] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:37] "GET /api/1215 HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:37] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:39] "GET /api/1215 HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:39] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:40] "GET /api/1215 HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:40] "GET /favicon.ico HTTP/1.1" 200 -
+INFO:root:start Shortipy server...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4321
+ * Running on http://10.10.10.75:4321
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:51] "GET /api/1215 HTTP/1.1" 200 -
+INFO:root:load DB
+ERROR:root:no entry for that short
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 20:06:51] "GET /favicon.ico HTTP/1.1" 200 -

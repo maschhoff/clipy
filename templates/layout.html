@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./static/main.css">
+        <title>Clipy</title>
+</head>
+<body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <div class="container">
+          <a class="navbar-brand mr-4" href="/"><ion-icon name="copy-outline"></ion-icon> Clipy</a> 
+       
+	   
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="https://github.com/maschhoff" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <!--  <a class="nav-item nav-link" href="/settings"><ion-icon name="settings"></ion-icon></a>-->
+            </div>
+          
+        </div>
+      </nav>
+    </header>
+      <section class="container">
+      
+          {% if message %}
+          <div class="alert alert-secondary" role="alert">
+            {{ message }}
+            &nbsp;&nbsp;
+            <button class="btn btn-secondary" onclick="copyToClipboard()"><ion-icon name="copy"></ion-icon></button>
+            <br/><br/>
+            <canvas id="qrcodeCanvas"></canvas>
+          </div>
+          {% endif %}
+
+          
+   <br/><br/><br/><br/><br/><br/><br/><br/>
+ 
+         
+          <form action="./" method="POST">
+            <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <!--
+            <input type="text" class="form-control input-lg" style="border-radius:3rem" name="short" aria-describedby="short" placeholder="enter shortcode 1234 or URL www.longurl.com">
+
+                -->
+            <div class="form-outline">
+              <textarea class="form-control" id="textAreaExample1" name="short"  rows="4"></textarea>
+             
+            </div>
+
+              </div>
+             
+            </div>
+            </div>
+            <div class="row">
+            <div class="col" align="right">
+              <div class="form-group">
+   
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+            <button type="submit" class="btn btn-secondary"><ion-icon name="add-circle"></ion-icon> clip it</button>
+              </div>
+            </div>
+          </div>
+          
+          </form>
+          
+      </section>
+  
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bwip-js/3.0.4/bwip-js.min.js"></script>
+    <!--<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>-->
+
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+   <!-- https://stackoverflow.com/questions/22581345/click-button-copy-to-clipboard-using-jquery -->
+  <script language="javascript" type="text/javascript">
+   
+   
+   // build qr code
+   
+   try {
+    // The return value is the canvas element
+    let canvas = bwipjs.toCanvas('qrcodeCanvas', {
+        bcid:        'qrcode',       // Barcode type
+        text:        '{{ shorturl }}',    // ③
+    });
+  } catch (e) {
+      // `e` may be a string or Error object
+  }
+
+
+   // copy entry to clipboard 
+  function copyToClipboard() {
+
+        navigator.clipboard.writeText("{{ shorturl }}");
+
+  }
+  </script>
+</body>
+</html>
