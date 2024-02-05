@@ -4,7 +4,7 @@ Written in python based on flask
 
 # preview
 
-![clipy]((https://i.ibb.co/1fQWgBv/Screenshot-2024-021235252-05-222010.png)
+![clipy](https://i.ibb.co/1fQWgBv/Screenshot-2024-021235252-05-222010.png)
 
 # features
 
