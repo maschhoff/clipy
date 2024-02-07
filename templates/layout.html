@@ -15,7 +15,7 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="/"><ion-icon name="copy-outline"></ion-icon> Clipy</a> 
+          <a class="navbar-brand mr-4" href="/"><ion-icon name="copy"></ion-icon> Clipy</a> 
        
 	   
             <!-- Navbar Right Side -->
@@ -52,7 +52,7 @@
 
                 -->
             <div class="form-outline">
-              <textarea class="form-control" id="textAreaExample1" name="short"  rows="4"></textarea>
+                <textarea  class="md-textarea form-control" id="exampleFormControlTextarea1" rows="5" name="short"></textarea>
              
             </div>
 
@@ -97,11 +97,21 @@
    
    // build qr code
    
+   // window.location.href+{{ shorturl }}
+   
    try {
     // The return value is the canvas element
+    {% if shorturl %}
+	  var entry=window.location.href+"{{ shorturl }}"
+    {% endif %}
+    {% if entry %}
+	  var entry="{{ entry }}"
+    {% endif %}
+
+	
     let canvas = bwipjs.toCanvas('qrcodeCanvas', {
         bcid:        'qrcode',       // Barcode type
-        text:        '{{ shorturl }}',    // ③
+        text:        entry,    // ③
     });
   } catch (e) {
       // `e` may be a string or Error object
@@ -111,7 +121,14 @@
    // copy entry to clipboard 
   function copyToClipboard() {
 
-        navigator.clipboard.writeText("{{ shorturl }}");
+    {% if shorturl %}
+	  var entry=window.location.href+"{{ shorturl }}"
+    {% endif %}
+    {% if entry %}
+	  var entry="{{ entry }}"
+    {% endif %}
+
+        navigator.clipboard.writeText(entry);
 
   }
   </script>
