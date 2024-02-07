@@ -32,7 +32,7 @@ def shorti_save():
 		logging.info("adding "+str(r)+" with "+short+" to db")
 		dbdict[r]=short
 		jdb.writeDB(db)
-		return render_template('layout.html', message="Link saved: "+str(r), shorturl=request.base_url+str(r))
+		return render_template('layout.html', message="Entry saved: "+str(r), shorturl=str(r))
 
 @app.route('/<string:short>')
 def shorts(short):
@@ -56,12 +56,10 @@ def redirectit(short):
 	if short in db["shortlinks"].keys():
 		logging.info("expose entry from "+db["shortlinks"].get(short))
 		#return redirect(db["shortlinks"].get(short), code=302)
-		return render_template('layout.html', message=db["shortlinks"].get(short), shorturl=db["shortlinks"].get(short))
+		return render_template('layout.html', message=db["shortlinks"].get(short), entry=db["shortlinks"].get(short))
 	else:
 		logging.error("no entry for that short")
 		return render_template('layout.html', message="no entry saved for that shortcode")
-	
-
 
 if __name__ == '__main__':
 	logging.basicConfig(filename='server.log',level=logging.INFO)
@@ -70,9 +68,7 @@ if __name__ == '__main__':
 	logging.info("start Shortipy server...")
 	print("start Shortipy server...")
 	print(""" 
-	
 pyclipboard
-
 	""")
 
 	app.run(host='0.0.0.0',port=4321,debug=False)
